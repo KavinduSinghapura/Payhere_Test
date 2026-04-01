@@ -11,8 +11,8 @@ $amount = $_POST["am"];
 $order_id = uniqid();
 $item = "Course Payment";
 
-$merchant_id = "1224972";
-$merchant_secret = "NTk3MDk2MDcwMjYzNDgxODA0MTg5NTI5NjQ0NTE2MTc4NjYwOTI=";
+$merchant_id = "";
+$merchant_secret = "";
 $currency = "LKR";
 
 $hash = strtoupper(
